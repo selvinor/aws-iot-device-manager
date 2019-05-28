@@ -1,0 +1,14 @@
+{
+	"auth": {
+		"cognito35b80ddf": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"awsiotdevicemanager": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

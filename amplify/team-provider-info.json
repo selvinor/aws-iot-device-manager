@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "awsiotdevicemanager-dev-20190528121003-authRole",
+            "UnauthRoleArn": "arn:aws:iam::819522231240:role/awsiotdevicemanager-dev-20190528121003-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::819522231240:role/awsiotdevicemanager-dev-20190528121003-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "awsiotdevicemanager-dev-20190528121003-deployment",
+            "UnauthRoleName": "awsiotdevicemanager-dev-20190528121003-unauthRole",
+            "StackName": "awsiotdevicemanager-dev-20190528121003",
+            "StackId": "arn:aws:cloudformation:us-west-2:819522231240:stack/awsiotdevicemanager-dev-20190528121003/460c2680-817c-11e9-8e8e-02741f3dee14"
+        },
+        "categories": {
+            "auth": {
+                "cognito35b80ddf": {}
+            }
+        }
+    }
+}

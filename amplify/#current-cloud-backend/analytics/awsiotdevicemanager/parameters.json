@@ -1,0 +1,20 @@
+{
+    "appName": "awsiotdevicemanager",
+    "roleName": "pinpointLambdaRole78c6a1fc",
+    "cloudWatchPolicyName": "cloudWatchPolicy78c6a1fc",
+    "pinpointPolicyName": "pinpointPolicy78c6a1fc",
+    "authPolicyName": "pinpoint_amplify_78c6a1fc",
+    "unauthPolicyName": "pinpoint_amplify_78c6a1fc",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
