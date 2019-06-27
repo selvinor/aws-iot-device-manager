@@ -13,21 +13,29 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "@expo/samples": "2.1.1",
-    "aws-amplify": "^1.1.29",
-    "expo": "^31.0.6",
-    "react": "^16.8.6",
+    "@expo/samples": "~3.0.0",
+    "@expo/vector-icons": "^10.0.1",
+    "@types/googlemaps": "^3.36.5",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^16.8.22",
+    "expo": "^33.0.0",
+    "expo-asset": "^5.0.0",
+    "expo-constants": "^5.0.0",
+    "expo-font": "^5.0.0",
+    "expo-web-browser": "^5.0.0",
+    "react": "16.8.3",
     "react-dom": "^16.8.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-native-elements": "^1.1.0",
-    "react-native-vector-icons": "^6.6.0",
+    "react-native-reanimated": "^1.1.0",
+    "react-native-vector-icons": "^6.5.0",
     "react-native-web": "^0.11.4",
-    "react-navigation": "^2.18.3",
+    "react-navigation": "^3.11.0",
     "use-global-hook": "^0.1.7"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.2.0",
-    "braces": "^2.3.1",
+    "braces": "^2.3.2",
     "jest-expo": "^33.0.2"
   }
 }
