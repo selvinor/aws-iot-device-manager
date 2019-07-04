@@ -6,14 +6,22 @@
 
 // AWS Mobile Hub Project Constants
 var aws_app_analytics = 'enable';
-var aws_cognito_identity_pool_id = 'us-east-1:e4b3666c-820a-4874-add0-88306dac395c';
-var aws_cognito_region = 'us-east-1';
-var aws_mobile_analytics_app_id = '8029d2517f3349cabc741bda3fefbee1';
+var aws_cognito_identity_pool_id = 'us-west-2:b2629d16-b51a-43a9-920d-031d0619ae97';
+var aws_cognito_region = 'us-west-2';
+var aws_mobile_analytics_app_id = 'fdc7c764ae994c25bb9dc5a07bb1138e';
 var aws_mobile_analytics_app_region = 'us-east-1';
-var aws_project_id = '5eb362ee-83ee-4c0a-ab3d-36a48701bcf5';
-var aws_project_name = 'Living Window';
-var aws_project_region = 'us-east-1';
-var aws_resource_name_prefix = 'livingwindow-mobilehub-1988115350';
+var aws_project_id = '69ef6e92-77ce-4769-b8ff-e75c5fde7848';
+var aws_project_name = 'Plant Wrangler';
+var aws_project_region = 'us-west-2';
+var aws_resource_name_prefix = 'plantwrangler-mobilehub-468688623';
+var aws_sign_in_enabled = 'enable';
+var aws_user_files = 'enable';
+var aws_user_files_s3_bucket = 'plantwrangler-userfiles-mobilehub-468688623';
+var aws_user_files_s3_bucket_region = 'us-west-2';
+var aws_user_pools = 'enable';
+var aws_user_pools_id = 'us-west-2_NKllJfqZf';
+var aws_user_pools_mfa_type = 'OFF';
+var aws_user_pools_web_client_id = '1gs78bajgcpo34d4ne1ihvcc8a';
 
 AWS.config.region = aws_project_region;
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({

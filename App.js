@@ -38,10 +38,11 @@ export default function App() {
   }, []);
 
   return (
-    <ScrollView>
-      <ListPlants /> 
-      <Plantlib />
-    </ScrollView>
+    <Dashboard />
+    // <ScrollView>
+    //   <ListPlants /> 
+    //   <Plantlib />
+    // </ScrollView>
 
     // <View style={styles.container}>
     //   <Text style={styles.header}>I am the parent component</Text>

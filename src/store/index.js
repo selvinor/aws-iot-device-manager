@@ -1,3 +1,4 @@
+// /src/store/index.js
 import React from "react";
 import useGlobalHook from "use-global-hook";
 

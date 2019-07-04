@@ -1,5 +1,6 @@
 import React, { useState, useEffect }  from 'react';
-import { Text, View, ScrollView, StyleSheet } from 'react-native';
+import { Text, View, ScrollView, StyleSheet, Image } from 'react-native';
+import { Card, ListItem, Button, Icon } from 'react-native-elements'
 import Icon2 from 'react-native-vector-icons/Feather';
 import useGlobal from "../store";
 
@@ -8,7 +9,7 @@ export default function ListPlants() {
 
   useEffect(() => {
   });
-    console.log('I will run after each render');
+    // console.log('I will run after each render');
     deletePlantFromActive = plantToDelete => {
       globalActions.removeActivePlant(plantToDelete);
     };
@@ -19,10 +20,12 @@ export default function ListPlants() {
       <Text style={styles.header}>My Plants</Text>
       <ScrollView style={{ width: '100%' }}>
       {globalState.activePlants.map((plant, index) => (
-        <View key={index} style={styles.textInputContainer}>
-          <Text
-            style={{ margin: 'auto' }}
-          >{plant.plant_name}</Text>
+        <Card  containerStyle={{padding: 10}} key={index} title={plant.plant_name}>
+          <Image
+            style={styles.image}
+            resizeMode="cover"
+            source={{ uri: plant.avatar }}
+          />
           <Icon2
             name="trash-2"
             size={30}
@@ -30,7 +33,7 @@ export default function ListPlants() {
             style={{ marginLeft: 'auto' }}
             onPress={() => deletePlantFromActive(plant.key)}
           />
-        </View>
+        </Card>
       ))}
       </ScrollView>
     </View>
@@ -40,8 +43,18 @@ export default function ListPlants() {
 
 const styles = StyleSheet.create({
   container: {
+    flexDirection: 'row',
     flex: 1,
-    justifyContent: 'flex-start',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF'
+  },
+  CardContainer: {
+    margin: 'auto',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF'
+  },
+  image: {
+    margin: 'auto',
     alignItems: 'center',
     backgroundColor: '#F5FCFF'
   },

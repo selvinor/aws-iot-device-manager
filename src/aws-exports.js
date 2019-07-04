@@ -7,14 +7,22 @@
 // AWS Mobile Hub Project Constants
 const awsmobile = {
     'aws_app_analytics': 'enable',
-    'aws_cognito_identity_pool_id': 'us-east-1:e4b3666c-820a-4874-add0-88306dac395c',
-    'aws_cognito_region': 'us-east-1',
-    'aws_mobile_analytics_app_id': '8029d2517f3349cabc741bda3fefbee1',
+    'aws_cognito_identity_pool_id': 'us-west-2:b2629d16-b51a-43a9-920d-031d0619ae97',
+    'aws_cognito_region': 'us-west-2',
+    'aws_mobile_analytics_app_id': 'fdc7c764ae994c25bb9dc5a07bb1138e',
     'aws_mobile_analytics_app_region': 'us-east-1',
-    'aws_project_id': '5eb362ee-83ee-4c0a-ab3d-36a48701bcf5',
-    'aws_project_name': 'Living Window',
-    'aws_project_region': 'us-east-1',
-    'aws_resource_name_prefix': 'livingwindow-mobilehub-1988115350',
+    'aws_project_id': '69ef6e92-77ce-4769-b8ff-e75c5fde7848',
+    'aws_project_name': 'Plant Wrangler',
+    'aws_project_region': 'us-west-2',
+    'aws_resource_name_prefix': 'plantwrangler-mobilehub-468688623',
+    'aws_sign_in_enabled': 'enable',
+    'aws_user_files': 'enable',
+    'aws_user_files_s3_bucket': 'plantwrangler-userfiles-mobilehub-468688623',
+    'aws_user_files_s3_bucket_region': 'us-west-2',
+    'aws_user_pools': 'enable',
+    'aws_user_pools_id': 'us-west-2_NKllJfqZf',
+    'aws_user_pools_mfa_type': 'OFF',
+    'aws_user_pools_web_client_id': '1gs78bajgcpo34d4ne1ihvcc8a',
 }
 
 export default awsmobile;
